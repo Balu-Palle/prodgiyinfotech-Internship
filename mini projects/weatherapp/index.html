@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <a class="brand" href="#">Weather App</a>
+    <div class="menu">
+      <a href="#">Home</a>
+      <a href="#">About this App</a>
+      <a href="#">How to use?</a>
+      <form class="search-form" role="search">
+        <input id="city" type="search" placeholder="Search" aria-label="Search">
+        <button id="submit" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="title">
+    <h1>Weather for <span id="cityName"></span></h1>
+  </div>
+
+  <div class="card-container">
+    <div class="card">
+      <div class="card-header">Temperatures</div>
+      <div class="card-body">
+        <h2 id="temp2"></h2>
+        <p>Temperature is <span id="temp"></span> &#8451;</p>
+        <p>Min Temperature is <span id="min_temp"></span> &#8451;</p>
+        <p>Max Temperature is <span id="max_temp"></span> &#8451;</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">Humidity Info</div>
+      <div class="card-body">
+        <h2 id="humidity2"></h2>
+        <p>Wind Degree is <span id="wind_degrees"></span>°</p>
+        <p>Feels Like <span id="feels_like"></span> &#8451;</p>
+        <p>Humidity is <span id="humidity"></span>%</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">Wind Info</div>
+      <div class="card-body">
+        <h2 id="wind_speed2"></h2>
+        <p>Wind Speed is <span id="wind_speed"></span> km/hr</p>
+        <p>Sunrise Time is <span id="sunrise"></span></p>
+        <p>Sunset Time is <span id="sunset"></span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="clouds">
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+  </div>
+
+  <footer>
+    <b>&#169 Copy Rights Reserved</b>
+    <h4>Balu Palle</h4>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
