@@ -4,6 +4,8 @@ Internship
 All this websites are done using HTML,CSS,Basic JavaScript
 ==>Demo pictures of output:
 1.weather app:
+live-website link:https://balu-palle.github.io/weatherApp/
+
 
 ![weather app ](https://github.com/user-attachments/assets/7fd15b20-4b56-4698-847c-474d9c5c2978)
 
